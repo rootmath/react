@@ -1,0 +1,32 @@
+{
+  "name": "@rootmath/react",
+  "version": "1.0.0",
+  "description": "React library for plotting and writing math",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "transform": {
+      ".js": "jest-esm-transformer"
+    }
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.6",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "esm": "^3.2.25",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "jest-esm-transformer": "^1.0.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.6.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.11.0"
+  }
+}
